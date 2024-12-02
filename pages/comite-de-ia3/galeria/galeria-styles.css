@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+.swiper-container {
+  width: 100%;
+  overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+}
+.swiper-slide {
+  font-size: 18px;
+  background: #ffffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  align-items: center; /* Centra el contenido en el slide */
+}
+.swiper-slide::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0; /* Cubre toda el área de la imagen */
+  background: linear-gradient(
+    to top,
+    rgba(0, 152, 223, 0.452),
+    rgba(0, 0, 0, 0.692)
+  ); /* Degradado desde negro opaco a transparente */
+  z-index: 2; /* Asegura que el gradiente esté por encima de la imagen */
+}
+.swiper-slide img {
+  width: 100%;
+  height: 500px;
+  display: block;
+  object-fit: cover; /* Asegura que la imagen cubra todo el slide sin deformarse */
+  object-position: center top;
+  position: relative;
+  z-index: 1; /* Coloca la imagen encima del gradiente */
+}
+@media (max-width: 1000px) {
+  .swiper-slide img {
+    width: 99%;
+    height: 500px;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover; /* Asegura que la imagen cubra todo el slide sin deformarse */
+    position: relative;
+    z-index: 1; /* Coloca la imagen encima del gradiente */
+  }
+}
+.slide-caption {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  color: white;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.slide-caption h2 {
+  margin: 0;
+  font-size: 30px;
+  text-align: start;
+}
+.slide-caption p {
+  color: #9fcd61;
+  margin: 5px 0 0;
+  font-size: 15px;
+  text-align: start;
+  padding-right: 10%;
+}
+.slide-caption h2 a {
+  text-decoration: none;
+  color: inherit; /* Mantiene el color original del texto */
+}
+
+.slide-caption h2 a:hover {
+  text-decoration: underline; /* O cualquier otro estilo para el hover */
+}
+
+.slide-caption p a {
+  text-decoration: none;
+  color: inherit; /* O define otro color aquí si es necesario */
+}
+
+.slide-caption p a:hover {
+  text-decoration: underline; /* O el estilo que prefieras al pasar el mouse */
+}
+.more-info-btn {
+  background-color: #bddb6b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 20%;
+}
+@media (max-width: 768px) {
+  .swiper-container {
+    width: 100%;
+    overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+  }
+  .swiper-slide {
+    font-size: 18px;
+    background: #ffffff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    align-items: center; /* Centra el contenido en el slide */
+  }
+  .swiper-slide::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0; /* Cubre toda el área de la imagen */
+    background: linear-gradient(
+      to top,
+      rgba(0, 152, 223, 0.452),
+      rgba(0, 0, 0, 0.692)
+    ); /* Degradado desde negro opaco a transparente */
+    z-index: 2; /* Asegura que el gradiente esté por encima de la imagen */
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    object-fit: cover; /* Asegura que la imagen cubra todo el slide sin deformarse */
+    position: relative;
+    z-index: 1; /* Coloca la imagen encima del gradiente */
+  }
+  .slide-caption {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slide-caption h2 {
+    margin: 0;
+    font-size: 20px;
+    text-align: start;
+  }
+  .slide-caption p {
+    color: #9fcd61;
+    margin: 5px 0 0;
+    font-size: 13px;
+    text-align: start;
+    padding-right: 10%;
+  }
+  .slide-caption h2 a {
+    text-decoration: none;
+    color: inherit; /* Mantiene el color original del texto */
+  }
+
+  .slide-caption h2 a:hover {
+    text-decoration: underline; /* O cualquier otro estilo para el hover */
+  }
+
+  .slide-caption p a {
+    text-decoration: none;
+    color: inherit; /* O define otro color aquí si es necesario */
+  }
+
+  .slide-caption p a:hover {
+    text-decoration: underline; /* O el estilo que prefieras al pasar el mouse */
+  }
+  .more-info-btn {
+    background-color: #bddb6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+  }
+}

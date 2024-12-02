@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería de Imágenes</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="galeria-styles.css">
+  </head>
+  <body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper" id="swiper-wrapper">
+        <!-- Slides will be injected here -->
+      </div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      const sheetId = "1Oxo28I9f1AN_fO15lqfxHVJulg3ExI78EqKDxDlqxZw"; // Reemplaza con tu propio ID de Google Sheet
+      const sheetName = "Sheet1"; // Nombre de la hoja, ajusta según corresponda
+      const apiKey = "AIzaSyCUYmJzp3iL-dc6qKYg8-hUjZBkQBBxKg4"; // Reemplaza con tu propia API Key
+
+      const getData = async () => {
+        const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${sheetName}?key=${apiKey}`;
+        try {
+          const response = await axios.get(url);
+          return response.data.values;
+        } catch (error) {
+          console.error("Error fetching data", error);
+        }
+      };
+
+      const convertDropboxLink = (url) => {
+        if (url.includes("dropbox.com")) {
+          return url
+            .replace("www.dropbox.com", "dl.dropboxusercontent.com")
+            .replace("?dl=0", "");
+        }
+        return url;
+      };
+      const createSlide = (title, description, imageUrl, url, locationUrl) => {
+  const processedImageUrl = convertDropboxLink(imageUrl);
+  const descriptionWithLink = locationUrl
+    ? `${description} <br/><a href="${locationUrl}" target="_blank" style="color: #f7921e;">¿Comó llegar?</a>`
+    : description;
+
+  // Generar el botón "Conocer más" si existe una URL
+  const moreInfoButton = url
+    ? `<button class="more-info-btn" >
+          <a href="${url}" target="_blank" style="color: #fff; text-decoration: none;">Conocer más</a>
+       </button>`
+    : "";
+
+  // Crear el contenido del slide
+  return `
+          <div class="swiper-slide">
+              <img src="${processedImageUrl}" alt="${title}">
+              <div class="slide-caption">
+                  <h2>${title}</h2>
+                  <p style="color: #ffff;">${descriptionWithLink}</p>
+                  ${moreInfoButton}
+              </div>
+          </div>
+      `;
+};
+
+      const initializeSwiper = () => {
+        new Swiper(".swiper-container", {
+          autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            type: "bullets",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          loop: true,
+        });
+      };
+      const loadSlides = async () => {
+  const data = await getData();
+  const swiperWrapper = document.getElementById("swiper-wrapper");
+  data.slice(1).forEach((row) => {
+    const [imageUrl, title, description, url, locationUrl] = row; // Incluye la URL de Maps aquí
+    swiperWrapper.innerHTML += createSlide(imageUrl, title, description, url, locationUrl);
+  });
+  initializeSwiper();
+};
+
+      document.addEventListener("DOMContentLoaded", loadSlides);
+    </script>
+  </body>
+</html>
