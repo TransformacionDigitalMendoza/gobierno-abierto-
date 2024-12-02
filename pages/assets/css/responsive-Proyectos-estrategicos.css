@@ -1,0 +1,78 @@
+@media (min-width: 300px) and (max-width: 990px){
+    .landing-page-container{
+       display: none;
+    }
+    .pc{
+      display:none;
+    }
+    .cel{display: inline-block;}
+    .container_title_responsive{
+        height: 400px;
+        background-color: white;
+        overflow: hidden;
+        margin: 0 0 0 0;
+        font-family: "Titillium Web", sans-serif;
+    }
+    .container_title_responsive title{
+      background-color: white;
+      overflow: hidden;
+    
+      font-family: "Titillium Web", sans-serif;
+      margin-top: 50%;
+  }
+    .container_title_responsive span{
+        font-size: 30px;
+       
+    }
+    .logo-footer{ width: 200px;padding-top:2px;align-items: center;text-align: center; left:20%; right:auto;}
+	.linea-directa{width: 280px;padding-top: 50px;padding-left: 20px;padding-right: auto;text-align: center;align-items: center;}
+
+    .container__text{
+        background-color: #062735;
+        position: relative;
+        z-index: 111;
+        width: 100%;
+        height: 200px;
+      }
+     
+    .container_title1 h2{
+        color: white;
+        font-size: 20px;
+        padding-top: 15%;
+        padding-right: 25%;
+        font-weight: 700;
+        text-align: left;
+      }
+      .container_title2 h2{
+        color: white;
+        font-size: 20px;
+        padding-top: 5%;
+        padding-left: 25%;
+        font-weight: 700;
+        text-align: right;
+      }
+      .container_title3 h2{
+        color: white;
+        font-size: 25px;
+        padding-top: 25%;
+        font-weight: 700;
+        text-align: center;
+      }
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px){
+    .container_title_responsive{
+        display: none;
+    }
+}
