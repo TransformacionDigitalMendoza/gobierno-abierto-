@@ -1710,7 +1710,7 @@
 }
 .clima{
     grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/clima.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(assets/images/clima.jpg);
     background-position: center center;
     background-size: cover;
 }

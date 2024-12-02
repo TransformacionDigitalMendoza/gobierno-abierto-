@@ -494,7 +494,7 @@ strong {
 }
 .consulta{
     grid-area: consulta;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/expedientes.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
     background-position: center center;
     background-size: fill;
 }
