@@ -312,19 +312,19 @@
   }
   .aip {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-fauxels-3184357.jpg);
+      url(../images/pexels-fauxels-3184357.jpg);
     background-position: center left;
     background-size: cover;
   }
   .datos-abiertos {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-markusspiske-965345.jpg);
+      url(../images/pexels-markusspiske-965345.jpg);
     background-position: center left;
     background-size: cover;
   }
   .plan {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-goumbik-590020.jpg);
+      url(../images/pexels-goumbik-590020.jpg);
     background-position: center left;
     background-size: cover;
   }
@@ -436,70 +436,70 @@
   color: #bddb6b;
 }
 .consulta{
-    grid-area: consulta;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/expedientes.webp);
-    background-position: center center;
-    background-size: fill;
+  grid-area: consulta;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
+  background-position: center center;
+  background-size: fill;
 }
 .digesto{
-    grid-area: digesto;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/paperwork.webp);
-    background-position: center center;
-    background-size: fill;
+  grid-area: digesto;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
+  background-position: center center;
+  background-size: fill;
 }
 .licitaciones{
-    grid-area: licitaciones;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/pexels-olly-3760067.jpg);
-    background-position: center center;
-    background-size: cover;
+  grid-area: licitaciones;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 .organigrama{
-    grid-area: organigrama;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/organigrama.webp);
-    background-position: center bottom;
-    background-size: cover;
+  grid-area: organigrama;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
+  background-position: center bottom;
+  background-size: cover;
 }
 .clima{
-    grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/clima.jpg);
-    background-position: center center;
-    background-size: cover;
+  grid-area: clima;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 .fiscal{
-    grid-area: fiscal;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/pexels-pixabay-209224.jpg);
-    background-position: center left;
-    background-size: cover;
+  grid-area: fiscal;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
+  background-position: center left;
+  background-size: cover;
 }
 .patrimoniales{
-    grid-area: patrimoniales;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/data.webp);
-    background-position: center bottom;
-    background-size: cover;
+  grid-area: patrimoniales;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
+  background-position: center bottom;
+  background-size: cover;
 }
 .obras{
-    grid-area: obras;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/obras.webp);
-    background-position: center left;
-    background-size: fill;
+  grid-area: obras;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
+  background-position: center left;
+  background-size: fill;
 }
 .lab{
-    grid-area: lab;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/lab.webp);
-    background-position: center center;
-    background-size: cover;
+  grid-area: lab;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
+  background-position: center center;
+  background-size: cover;
 }
 .multas{
-    grid-area: multas;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/transito.webp);
-    background-position: center right;
-    background-size: fill;
+  grid-area: multas;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
+  background-position: center right;
+  background-size: fill;
 }
 .electoral{
-    grid-area: electoral;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/city.jpg);
-    background-position: center center;
-    background-size: fill;
+  grid-area: electoral;
+  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
+  background-position: center center;
+  background-size: fill;
 }
 
   .transformacion {
@@ -1562,19 +1562,19 @@
   }
   .aip {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-fauxels-3184357.jpg);
+      url(../images/pexels-fauxels-3184357.jpg);
     background-position: center left;
     background-size: cover;
   }
   .datos-abiertos {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-markusspiske-965345.jpg);
+      url(../images/pexels-markusspiske-965345.jpg);
     background-position: center left;
     background-size: cover;
   }
   .plan {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-goumbik-590020.jpg);
+      url(../images/pexels-goumbik-590020.jpg);
     background-position: center left;
     background-size: cover;
   }
@@ -1686,67 +1686,67 @@
   }
   .consulta{
     grid-area: consulta;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/expedientes.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
     background-position: center center;
     background-size: fill;
 }
 .digesto{
     grid-area: digesto;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/paperwork.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
     background-position: center center;
     background-size: fill;
 }
 .licitaciones{
     grid-area: licitaciones;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/pexels-olly-3760067.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
     background-position: center center;
     background-size: cover;
 }
 .organigrama{
     grid-area: organigrama;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/organigrama.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
     background-position: center bottom;
     background-size: cover;
 }
 .clima{
     grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(assets/images/clima.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
     background-position: center center;
     background-size: cover;
 }
 .fiscal{
     grid-area: fiscal;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/pexels-pixabay-209224.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
     background-position: center left;
     background-size: cover;
 }
 .patrimoniales{
     grid-area: patrimoniales;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/data.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
     background-position: center bottom;
     background-size: cover;
 }
 .obras{
     grid-area: obras;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/obras.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
     background-position: center left;
     background-size: fill;
 }
 .lab{
     grid-area: lab;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/lab.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
     background-position: center center;
     background-size: cover;
 }
 .multas{
     grid-area: multas;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/transito.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
     background-position: center right;
     background-size: fill;
 }
 .electoral{
     grid-area: electoral;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/city.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
     background-position: center center;
     background-size: fill;
 }
@@ -2668,19 +2668,19 @@
   }
   .aip {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-fauxels-3184357.jpg);
+      url(../images/pexels-fauxels-3184357.jpg);
     background-position: center left;
     background-size: cover;
   }
   .datos-abiertos {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-markusspiske-965345.jpg);
+      url(../images/pexels-markusspiske-965345.jpg);
     background-position: center left;
     background-size: cover;
   }
   .plan {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-goumbik-590020.jpg);
+      url(../images/pexels-goumbik-590020.jpg);
     background-position: center left;
     background-size: cover;
   }
@@ -2792,70 +2792,71 @@
   }
   .consulta{
     grid-area: consulta;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/expedientes.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
     background-position: center center;
     background-size: fill;
 }
 .digesto{
     grid-area: digesto;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/paperwork.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
     background-position: center center;
     background-size: fill;
 }
 .licitaciones{
     grid-area: licitaciones;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/pexels-olly-3760067.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
     background-position: center center;
     background-size: cover;
 }
 .organigrama{
     grid-area: organigrama;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/organigrama.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
     background-position: center bottom;
     background-size: cover;
 }
 .clima{
     grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/clima.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
     background-position: center center;
     background-size: cover;
 }
 .fiscal{
     grid-area: fiscal;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/pexels-pixabay-209224.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
     background-position: center left;
     background-size: cover;
 }
 .patrimoniales{
     grid-area: patrimoniales;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/data.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
     background-position: center bottom;
     background-size: cover;
 }
 .obras{
     grid-area: obras;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/obras.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
     background-position: center left;
     background-size: fill;
 }
 .lab{
     grid-area: lab;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/lab.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
     background-position: center center;
     background-size: cover;
 }
 .multas{
     grid-area: multas;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/transito.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
     background-position: center right;
     background-size: fill;
 }
 .electoral{
     grid-area: electoral;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url(/assets/images/city.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
     background-position: center center;
     background-size: fill;
 }
+
   .transformacion {
     width: 100%;
     height: 1700px;
@@ -3761,19 +3762,19 @@
   }
   .aip {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-fauxels-3184357.jpg);
+      url(../images/pexels-fauxels-3184357.jpg);
     background-position: center left;
     background-size: cover;
   }
   .datos-abiertos {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-markusspiske-965345.jpg);
+      url(../images/pexels-markusspiske-965345.jpg);
     background-position: center left;
     background-size: cover;
   }
   .plan {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-goumbik-590020.jpg);
+      url(../images/pexels-goumbik-590020.jpg);
     background-position: center left;
     background-size: cover;
   }
@@ -3885,83 +3886,73 @@
   .btnra h3:hover {
     color: #bddb6b;
   }
-  .consulta {
+  .consulta{
     grid-area: consulta;
-    background: linear-gradient(9deg, #bddb6ba9 15%, #45c7ffa1 90%),
-      url(/assets/images/expedientes.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
     background-position: center center;
     background-size: fill;
-  }
-  .digesto {
+}
+.digesto{
     grid-area: digesto;
-    background: linear-gradient(9deg, #bddb6ba9 15%, #45c7ffa1 90%),
-      url(/assets/images/paperwork.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
     background-position: center center;
     background-size: fill;
-  }
-  .licitaciones {
+}
+.licitaciones{
     grid-area: licitaciones;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-olly-3760067.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
     background-position: center center;
     background-size: cover;
-  }
-  .organigrama {
+}
+.organigrama{
     grid-area: organigrama;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/organigrama.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
     background-position: center bottom;
     background-size: cover;
-  }
-  .clima {
+}
+.clima{
     grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/clima.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
     background-position: center center;
     background-size: cover;
-  }
-  .fiscal {
+}
+.fiscal{
     grid-area: fiscal;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-pixabay-209224.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
     background-position: center left;
     background-size: cover;
-  }
-  .patrimoniales {
+}
+.patrimoniales{
     grid-area: patrimoniales;
-    background: linear-gradient(9deg, #bddb6ba9 15%, #45c7ffa1 90%),
-      url(/assets/images/data.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
     background-position: center bottom;
     background-size: cover;
-  }
-  .obras {
+}
+.obras{
     grid-area: obras;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/obras.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
     background-position: center left;
     background-size: fill;
-  }
-  .lab {
+}
+.lab{
     grid-area: lab;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/lab.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
     background-position: center center;
     background-size: cover;
-  }
-  .multas {
+}
+.multas{
     grid-area: multas;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/transito.webp);
-    background-position: center center;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
+    background-position: center right;
     background-size: fill;
-  }
-  .electoral {
+}
+.electoral{
     grid-area: electoral;
-    background: linear-gradient(9deg, #bddb6ba9 15%, #45c7ffa1 90%),
-      url(/assets/images/city.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
     background-position: center center;
     background-size: fill;
-  }
+}
+
   .transformacion {
     width: 100%;
     height: 1850px;
@@ -4871,19 +4862,19 @@
   }
   .aip {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-fauxels-3184357.jpg);
+      url(../images/pexels-fauxels-3184357.jpg);
     background-position: center left;
     background-size: cover;
   }
   .datos-abiertos {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-markusspiske-965345.jpg);
+      url(../images/pexels-markusspiske-965345.jpg);
     background-position: center left;
     background-size: cover;
   }
   .plan {
     background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-goumbik-590020.jpg);
+      url(../images/pexels-goumbik-590020.jpg);
     background-position: center left;
     background-size: cover;
   }
@@ -4995,83 +4986,73 @@
   .btnra h3:hover {
     color: #bddb6b;
   }
-  .consulta {
+  .consulta{
     grid-area: consulta;
-    background: linear-gradient(9deg, #bddb6ba9 15%, #45c7ffa1 90%),
-      url(/assets/images/expedientes.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
     background-position: center center;
     background-size: fill;
-  }
-  .digesto {
+}
+.digesto{
     grid-area: digesto;
-    background: linear-gradient(9deg, #bddb6ba9 15%, #45c7ffa1 90%),
-      url(/assets/images/paperwork.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
     background-position: center center;
     background-size: fill;
-  }
-  .licitaciones {
+}
+.licitaciones{
     grid-area: licitaciones;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-olly-3760067.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
     background-position: center center;
     background-size: cover;
-  }
-  .organigrama {
+}
+.organigrama{
     grid-area: organigrama;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/organigrama.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
     background-position: center bottom;
     background-size: cover;
-  }
-  .clima {
+}
+.clima{
     grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/clima.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
     background-position: center center;
     background-size: cover;
-  }
-  .fiscal {
+}
+.fiscal{
     grid-area: fiscal;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/pexels-pixabay-209224.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
     background-position: center left;
     background-size: cover;
-  }
-  .patrimoniales {
+}
+.patrimoniales{
     grid-area: patrimoniales;
-    background: linear-gradient(9deg, #bddb6ba9 15%, #45c7ffa1 90%),
-      url(/assets/images/data.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
     background-position: center bottom;
     background-size: cover;
-  }
-  .obras {
+}
+.obras{
     grid-area: obras;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/obras.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
     background-position: center left;
     background-size: fill;
-  }
-  .lab {
+}
+.lab{
     grid-area: lab;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/lab.webp);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
     background-position: center center;
     background-size: cover;
-  }
-  .multas {
+}
+.multas{
     grid-area: multas;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
-      url(/assets/images/transito.webp);
-    background-position: center center;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
+    background-position: center right;
     background-size: fill;
-  }
-  .electoral {
+}
+.electoral{
     grid-area: electoral;
-    background: linear-gradient(9deg, #bddb6ba9 15%, #45c7ffa1 90%),
-      url(/assets/images/city.jpg);
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
     background-position: center center;
     background-size: fill;
-  }
+}
+
   .transformacion {
     width: 100%;
     height: 1850px;
