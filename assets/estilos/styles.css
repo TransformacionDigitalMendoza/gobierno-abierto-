@@ -61,6 +61,7 @@ strong {
   list-style: none;
   padding-left: 30px;
   font-size: 18px;
+  font-weight: 700;
   color: white;
 }
 .header-nav li:hover {

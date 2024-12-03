@@ -1108,3 +1108,14 @@ body {
 .hidden {
   display: none;
 }
+
+#btn-back-to-top {
+  position: fixed;
+  z-index: 33333;
+  bottom: 120px;
+  right: 45px;
+  display: none;
+  background-color: #bddb6b;
+  border-color: #bddb6b;
+  border-radius: 50%;
+}
