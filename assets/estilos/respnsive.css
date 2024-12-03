@@ -392,7 +392,7 @@
     height: 1000px;
     background-color: rgb(255, 255, 255);
   }
-  .botonera-grid{
+  .botonera-grid {
     width: 100%;
     padding-right: 10%;
     padding-left: 10%;
@@ -400,27 +400,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px 150px 150px 150px;
-    grid-template-areas: 
-    "consulta clima multas multas"
-    "organigrama clima fiscal licitaciones"
-    "organigrama electoral  digesto licitaciones"
-    "patrimoniales lab digesto obras";
+    grid-template-areas:
+      "consulta clima multas multas"
+      "organigrama clima fiscal licitaciones"
+      "organigrama electoral  digesto licitaciones"
+      "patrimoniales lab digesto obras";
     gap: 40px;
-    
-}
-.botonera-grid a{
+  }
+  .botonera-grid a {
     text-decoration: none;
-}
-.btnra{
+  }
+  .btnra {
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;    
+    padding: 20px;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.562);
     transition: 1s;
-}
-.btnra h3{
+  }
+  .btnra h3 {
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -428,79 +427,90 @@
     color: white;
     text-shadow: 2px 2px 2px #003e58;
     transition: 1s;
-}
-.btnra:hover{
-  background: #003e58;
-}
-.btnra h3:hover{
-  color: #bddb6b;
-}
-.consulta{
-  grid-area: consulta;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
-  background-position: center center;
-  background-size: fill;
-}
-.digesto{
-  grid-area: digesto;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
-  background-position: center center;
-  background-size: fill;
-}
-.licitaciones{
-  grid-area: licitaciones;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
-  background-position: center center;
-  background-size: cover;
-}
-.organigrama{
-  grid-area: organigrama;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
-  background-position: center bottom;
-  background-size: cover;
-}
-.clima{
-  grid-area: clima;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
-  background-position: center center;
-  background-size: cover;
-}
-.fiscal{
-  grid-area: fiscal;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
-  background-position: center left;
-  background-size: cover;
-}
-.patrimoniales{
-  grid-area: patrimoniales;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
-  background-position: center bottom;
-  background-size: cover;
-}
-.obras{
-  grid-area: obras;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
-  background-position: center left;
-  background-size: fill;
-}
-.lab{
-  grid-area: lab;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
-  background-position: center center;
-  background-size: cover;
-}
-.multas{
-  grid-area: multas;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
-  background-position: center right;
-  background-size: fill;
-}
-.electoral{
-  grid-area: electoral;
-  background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
-  background-position: center center;
-  background-size: fill;
-}
+  }
+  .btnra:hover {
+    background: #003e58;
+  }
+  .btnra h3:hover {
+    color: #bddb6b;
+  }
+  .consulta {
+    grid-area: consulta;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/expedientes.webp");
+    background-position: center center;
+    background-size: fill;
+  }
+  .digesto {
+    grid-area: digesto;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/paperwork.webp");
+    background-position: center center;
+    background-size: fill;
+  }
+  .licitaciones {
+    grid-area: licitaciones;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-olly-3760067.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+  .organigrama {
+    grid-area: organigrama;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/organigrama.webp");
+    background-position: center bottom;
+    background-size: cover;
+  }
+  .clima {
+    grid-area: clima;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/clima.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+  .fiscal {
+    grid-area: fiscal;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-pixabay-209224.jpg");
+    background-position: center left;
+    background-size: cover;
+  }
+  .patrimoniales {
+    grid-area: patrimoniales;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/data.webp");
+    background-position: center bottom;
+    background-size: cover;
+  }
+  .obras {
+    grid-area: obras;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/obras.webp");
+    background-position: center left;
+    background-size: fill;
+  }
+  .lab {
+    grid-area: lab;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/lab.webp");
+    background-position: center center;
+    background-size: cover;
+  }
+  .multas {
+    grid-area: multas;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/transito.webp");
+    background-position: center right;
+    background-size: fill;
+  }
+  .electoral {
+    grid-area: electoral;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/city.jpg");
+    background-position: center center;
+    background-size: fill;
+  }
 
   .transformacion {
     width: 100%;
@@ -653,7 +663,7 @@
   .geoportal {
     width: 100%;
     height: 400px;
-    background: linear-gradient(0deg, #ffffff 15%, #89bbe9 15% , #003e58 90%);
+    background: linear-gradient(0deg, #ffffff 15%, #89bbe9 15%, #003e58 90%);
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -848,7 +858,7 @@
     color: white;
     font-weight: 700;
   }
-  .buttons-content h4{
+  .buttons-content h4 {
     width: 100px;
     height: 80px;
     text-align: center;
@@ -863,7 +873,7 @@
     justify-content: center;
     align-items: center;
   }
-  .buttons:hover svg{
+  .buttons:hover svg {
     transform: scale(110%);
   }
   .ojos {
@@ -1099,9 +1109,8 @@
     border-color: #062735;
     border-radius: 50%;
   }
-  
 }
-@media (min-width: 1200px) and (max-width: 1260px){
+@media (min-width: 1200px) and (max-width: 1260px) {
   .participacion {
     width: 100%;
     height: 1100px;
@@ -1198,7 +1207,7 @@
     color: white;
     font-weight: 700;
   }
-  .buttons-content h4{
+  .buttons-content h4 {
     width: 100px;
     height: 80px;
     text-align: center;
@@ -1213,7 +1222,7 @@
     justify-content: center;
     align-items: center;
   }
-  .buttons:hover svg{
+  .buttons:hover svg {
     transform: scale(110%);
   }
   .ojos {
@@ -1244,7 +1253,6 @@
     border-color: #062735;
     border-radius: 50%;
   }
-  
 }
 @media (min-width: 900px) and (max-width: 1200px) {
   .header {
@@ -1684,72 +1692,83 @@
   .btnra h3:hover {
     color: #bddb6b;
   }
-  .consulta{
+  .consulta {
     grid-area: consulta;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/expedientes.webp");
     background-position: center center;
     background-size: fill;
-}
-.digesto{
+  }
+  .digesto {
     grid-area: digesto;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/paperwork.webp");
     background-position: center center;
     background-size: fill;
-}
-.licitaciones{
+  }
+  .licitaciones {
     grid-area: licitaciones;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-olly-3760067.jpg");
     background-position: center center;
     background-size: cover;
-}
-.organigrama{
+  }
+  .organigrama {
     grid-area: organigrama;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/organigrama.webp");
     background-position: center bottom;
     background-size: cover;
-}
-.clima{
+  }
+  .clima {
     grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/clima.jpg");
     background-position: center center;
     background-size: cover;
-}
-.fiscal{
+  }
+  .fiscal {
     grid-area: fiscal;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-pixabay-209224.jpg");
     background-position: center left;
     background-size: cover;
-}
-.patrimoniales{
+  }
+  .patrimoniales {
     grid-area: patrimoniales;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/data.webp");
     background-position: center bottom;
     background-size: cover;
-}
-.obras{
+  }
+  .obras {
     grid-area: obras;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/obras.webp");
     background-position: center left;
     background-size: fill;
-}
-.lab{
+  }
+  .lab {
     grid-area: lab;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/lab.webp");
     background-position: center center;
     background-size: cover;
-}
-.multas{
+  }
+  .multas {
     grid-area: multas;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/transito.webp");
     background-position: center right;
     background-size: fill;
-}
-.electoral{
+  }
+  .electoral {
     grid-area: electoral;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/city.jpg");
     background-position: center center;
     background-size: fill;
-}
+  }
 
   .transformacion {
     width: 100%;
@@ -1904,7 +1923,7 @@
   .geoportal {
     width: 100%;
     height: 400px;
-    background: linear-gradient(-2deg, #ffffff 25%, #89bbe9 25% , #003e58 90%);
+    background: linear-gradient(-2deg, #ffffff 25%, #89bbe9 25%, #003e58 90%);
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -2104,7 +2123,7 @@
     color: white;
     font-weight: 700;
   }
-  .buttons-content h4{
+  .buttons-content h4 {
     width: 100px;
     height: 80px;
     text-align: center;
@@ -2119,7 +2138,7 @@
     justify-content: center;
     align-items: center;
   }
-  .buttons:hover svg{
+  .buttons:hover svg {
     transform: scale(110%);
   }
   .ojos {
@@ -2366,7 +2385,6 @@
     border-color: #062735;
     border-radius: 50%;
   }
-  
 }
 @media (min-width: 700px) and (max-width: 900px) {
   .header {
@@ -2419,8 +2437,13 @@
   .gb-title {
     width: 100%;
     height: 100%;
-    background: rgb(0,62,88);
-    background: linear-gradient(0deg, rgba(0,62,88,0.5186274338837098) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%); 
+    background: rgb(0, 62, 88);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 62, 88, 0.5186274338837098) 0%,
+      rgba(255, 255, 255, 1) 45%,
+      rgba(255, 255, 255, 1) 100%
+    );
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -2790,72 +2813,83 @@
   .btnra h3:hover {
     color: #bddb6b;
   }
-  .consulta{
+  .consulta {
     grid-area: consulta;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/expedientes.webp");
     background-position: center center;
     background-size: fill;
-}
-.digesto{
+  }
+  .digesto {
     grid-area: digesto;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/paperwork.webp");
     background-position: center center;
     background-size: fill;
-}
-.licitaciones{
+  }
+  .licitaciones {
     grid-area: licitaciones;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-olly-3760067.jpg");
     background-position: center center;
     background-size: cover;
-}
-.organigrama{
+  }
+  .organigrama {
     grid-area: organigrama;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/organigrama.webp");
     background-position: center bottom;
     background-size: cover;
-}
-.clima{
+  }
+  .clima {
     grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/clima.jpg");
     background-position: center center;
     background-size: cover;
-}
-.fiscal{
+  }
+  .fiscal {
     grid-area: fiscal;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-pixabay-209224.jpg");
     background-position: center left;
     background-size: cover;
-}
-.patrimoniales{
+  }
+  .patrimoniales {
     grid-area: patrimoniales;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/data.webp");
     background-position: center bottom;
     background-size: cover;
-}
-.obras{
+  }
+  .obras {
     grid-area: obras;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/obras.webp");
     background-position: center left;
     background-size: fill;
-}
-.lab{
+  }
+  .lab {
     grid-area: lab;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/lab.webp");
     background-position: center center;
     background-size: cover;
-}
-.multas{
+  }
+  .multas {
     grid-area: multas;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/transito.webp");
     background-position: center right;
     background-size: fill;
-}
-.electoral{
+  }
+  .electoral {
     grid-area: electoral;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/city.jpg");
     background-position: center center;
     background-size: fill;
-}
+  }
 
   .transformacion {
     width: 100%;
@@ -3010,7 +3044,7 @@
   .geoportal {
     width: 100%;
     height: 500px;
-    background: linear-gradient(-2deg, #ffffff 25%, #89bbe9 25% , #003e58 90%);
+    background: linear-gradient(-2deg, #ffffff 25%, #89bbe9 25%, #003e58 90%);
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -3459,7 +3493,6 @@
     border-color: #062735;
     border-radius: 50%;
   }
-  
 }
 @media (min-width: 400px) and (max-width: 700px) {
   .header {
@@ -3512,8 +3545,13 @@
   .gb-title {
     width: 100%;
     height: 100%;
-    background: rgb(0,62,88);
-    background: linear-gradient(0deg, rgba(0, 62, 88, 0.699) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%); 
+    background: rgb(0, 62, 88);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 62, 88, 0.699) 0%,
+      rgba(255, 255, 255, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -3886,72 +3924,83 @@
   .btnra h3:hover {
     color: #bddb6b;
   }
-  .consulta{
+  .consulta {
     grid-area: consulta;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/expedientes.webp");
     background-position: center center;
     background-size: fill;
-}
-.digesto{
+  }
+  .digesto {
     grid-area: digesto;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/paperwork.webp");
     background-position: center center;
     background-size: fill;
-}
-.licitaciones{
+  }
+  .licitaciones {
     grid-area: licitaciones;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-olly-3760067.jpg");
     background-position: center center;
     background-size: cover;
-}
-.organigrama{
+  }
+  .organigrama {
     grid-area: organigrama;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/organigrama.webp");
     background-position: center bottom;
     background-size: cover;
-}
-.clima{
+  }
+  .clima {
     grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/clima.jpg");
     background-position: center center;
     background-size: cover;
-}
-.fiscal{
+  }
+  .fiscal {
     grid-area: fiscal;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-pixabay-209224.jpg");
     background-position: center left;
     background-size: cover;
-}
-.patrimoniales{
+  }
+  .patrimoniales {
     grid-area: patrimoniales;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/data.webp");
     background-position: center bottom;
     background-size: cover;
-}
-.obras{
+  }
+  .obras {
     grid-area: obras;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/obras.webp");
     background-position: center left;
     background-size: fill;
-}
-.lab{
+  }
+  .lab {
     grid-area: lab;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/lab.webp");
     background-position: center center;
     background-size: cover;
-}
-.multas{
+  }
+  .multas {
     grid-area: multas;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/transito.webp");
     background-position: center right;
     background-size: fill;
-}
-.electoral{
+  }
+  .electoral {
     grid-area: electoral;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/city.jpg");
     background-position: center center;
     background-size: fill;
-}
+  }
 
   .transformacion {
     width: 100%;
@@ -4109,7 +4158,7 @@
   .geoportal {
     width: 100%;
     height: 530px;
-    background: linear-gradient(-2deg, #ffffff 25%, #89bbe9 25% , #003e58 90%);
+    background: linear-gradient(-2deg, #ffffff 25%, #89bbe9 25%, #003e58 90%);
     padding-left: 5%;
     padding-right: 5%;
     display: flex;
@@ -4126,7 +4175,7 @@
   }
   .geoportal-title h2 {
     font-size: 1.5rem;
-    color:white;
+    color: white;
   }
   .geoportal-title p {
     font-size: 0.8rem;
@@ -4175,9 +4224,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 200px 200px 200px;
     grid-template-areas:
-    "mision"
-    "vision"
-    "objetivos";
+      "mision"
+      "vision"
+      "objetivos";
     gap: 40px;
     padding-left: 5%;
     padding-right: 5%;
@@ -4507,8 +4556,6 @@
     width: max-content; /* Se asegura de contener todo el contenido duplicado */
   }
 
-
-
   footer {
     width: 100%;
     height: 450px;
@@ -4562,8 +4609,8 @@
     border-color: #062735;
     border-radius: 50%;
   }
-  
-  .gtranslate_wrapper{
+
+  .gtranslate_wrapper {
     position: absolute;
     z-index: 3;
     bottom: 90px;
@@ -4620,8 +4667,13 @@
   .gb-title {
     width: 100%;
     height: 100%;
-    background: rgb(0,62,88);
-    background: linear-gradient(0deg, rgba(0, 62, 88, 0.699) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%); 
+    background: rgb(0, 62, 88);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 62, 88, 0.699) 0%,
+      rgba(255, 255, 255, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     padding-top: 5%;
     padding-left: 2%;
     padding-right: 2%;
@@ -4986,72 +5038,83 @@
   .btnra h3:hover {
     color: #bddb6b;
   }
-  .consulta{
+  .consulta {
     grid-area: consulta;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/expedientes.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/expedientes.webp");
     background-position: center center;
     background-size: fill;
-}
-.digesto{
+  }
+  .digesto {
     grid-area: digesto;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/paperwork.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/paperwork.webp");
     background-position: center center;
     background-size: fill;
-}
-.licitaciones{
+  }
+  .licitaciones {
     grid-area: licitaciones;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-olly-3760067.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-olly-3760067.jpg");
     background-position: center center;
     background-size: cover;
-}
-.organigrama{
+  }
+  .organigrama {
     grid-area: organigrama;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/organigrama.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/organigrama.webp");
     background-position: center bottom;
     background-size: cover;
-}
-.clima{
+  }
+  .clima {
     grid-area: clima;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/clima.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/clima.jpg");
     background-position: center center;
     background-size: cover;
-}
-.fiscal{
+  }
+  .fiscal {
     grid-area: fiscal;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-pixabay-209224.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/pexels-pixabay-209224.jpg");
     background-position: center left;
     background-size: cover;
-}
-.patrimoniales{
+  }
+  .patrimoniales {
     grid-area: patrimoniales;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/data.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/data.webp");
     background-position: center bottom;
     background-size: cover;
-}
-.obras{
+  }
+  .obras {
     grid-area: obras;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/obras.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/obras.webp");
     background-position: center left;
     background-size: fill;
-}
-.lab{
+  }
+  .lab {
     grid-area: lab;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/lab.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/lab.webp");
     background-position: center center;
     background-size: cover;
-}
-.multas{
+  }
+  .multas {
     grid-area: multas;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/transito.webp');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/transito.webp");
     background-position: center right;
     background-size: fill;
-}
-.electoral{
+  }
+  .electoral {
     grid-area: electoral;
-    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/city.jpg');
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%),
+      url("../images/city.jpg");
     background-position: center center;
     background-size: fill;
-}
+  }
 
   .transformacion {
     width: 100%;
@@ -5209,7 +5272,7 @@
   .geoportal {
     width: 100%;
     height: 530px;
-    background: linear-gradient(-2deg, #ffffff 25%, #89bbe9 25% , #003e58 90%);
+    background: linear-gradient(-2deg, #ffffff 25%, #89bbe9 25%, #003e58 90%);
     padding-left: 5%;
     padding-right: 5%;
     display: flex;
@@ -5274,9 +5337,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 200px 200px 200px;
     grid-template-areas:
-    "mision"
-    "vision"
-    "objetivos";
+      "mision"
+      "vision"
+      "objetivos";
     gap: 40px;
     padding-left: 5%;
     padding-right: 5%;
@@ -5418,7 +5481,7 @@
     color: white;
     font-weight: 700;
   }
-  .buttons-content h4{
+  .buttons-content h4 {
     width: 100px;
     height: 80px;
     text-align: start;
@@ -5480,7 +5543,7 @@
     font-size: 0.8rem;
     color: #003e58;
   }
-  .leer-mas p{
+  .leer-mas p {
     display: none;
   }
   .jurados-title a {
@@ -5624,7 +5687,6 @@
     width: max-content; /* Se asegura de contener todo el contenido duplicado */
   }
 
-
   footer {
     width: 100%;
     height: 450px;
@@ -5678,14 +5740,14 @@
     border-color: #062735;
     border-radius: 50%;
   }
-  
-  .gtranslate_wrapper{
+
+  .gtranslate_wrapper {
     position: absolute;
     z-index: 3;
     bottom: 90px;
   }
 }
-@media (min-width: 300px) and (max-width: 340px){
+@media (min-width: 300px) and (max-width: 340px) {
   .data-sets {
     width: 100%;
     height: 400px;
@@ -5694,7 +5756,7 @@
     padding-left: 5%;
   }
 }
-@media (min-width: 300px) and (max-width: 335px){
+@media (min-width: 300px) and (max-width: 335px) {
   .data-sets {
     width: 100%;
     height: 580px;
