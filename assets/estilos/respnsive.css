@@ -401,10 +401,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px 150px 150px 150px;
     grid-template-areas:
-      "consulta clima multas multas"
-      "organigrama clima fiscal licitaciones"
-      "organigrama electoral  digesto licitaciones"
-      "patrimoniales lab digesto obras";
+    "consulta clima multas multas"
+    "organigrama fiscal digesto licitaciones"
+    "proyectos electoral  digesto licitaciones"
+    "patrimoniales lab obras obras";
     gap: 40px;
   }
   .botonera-grid a {
@@ -433,6 +433,12 @@
   }
   .btnra h3:hover {
     color: #bddb6b;
+  }
+  .proyectos{
+    grid-area: proyectos;
+    background: linear-gradient(9deg, #003255cb 15%, #062735b9 90%), url('../images/pexels-fauxels-3184292.jpg');
+    background-position: center center;
+    background-size: cover;
   }
   .consulta {
     grid-area: consulta;
@@ -1659,10 +1665,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px 100px 100px 150px;
     grid-template-areas:
-      "consulta clima multas multas"
-      "organigrama clima fiscal licitaciones"
-      "organigrama obras digesto licitaciones"
-      "patrimoniales lab digesto electoral";
+    "consulta clima multas multas"
+    "organigrama fiscal digesto licitaciones"
+    "proyectos electoral  digesto licitaciones"
+    "patrimoniales lab obras obras";
     gap: 20px;
   }
   .botonera-grid a {
@@ -2783,7 +2789,7 @@
       "consulta digesto licitaciones"
       "organigrama clima fiscal"
       "patrimoniales obras lab"
-      "multas multas electoral";
+      "multas proyectos electoral";
     gap: 20px;
   }
   .botonera-grid a {
@@ -3892,7 +3898,7 @@
       "consulta digesto"
       "licitaciones fiscal"
       "organigrama clima"
-      "lab lab"
+      "lab proyectos"
       "patrimoniales obras "
       "multas electoral";
     gap: 20px;
@@ -5006,7 +5012,7 @@
       "consulta digesto"
       "licitaciones fiscal"
       "organigrama clima"
-      "lab lab"
+      "lab proyectos"
       "patrimoniales obras "
       "multas electoral";
     gap: 20px;

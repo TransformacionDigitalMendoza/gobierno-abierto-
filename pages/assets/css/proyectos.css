@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+.svg-top {
+  position: relative;
+  z-index: 1;
+  margin-top: -10%;
+}
+.svg-bottom {
+  position: relative;
+  z-index: 1;
+  margin-top: -10%;
+}
+strong {
+  font-family: "Quicksand", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 90px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 4px #2e2e2e6c;
+  position: fixed;
+  z-index: 333;
+  background-color: #062735;
+}
+.header-logo {
+  width: 300px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.header-logo a {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.header-logo img {
+  height: 60%;
+}
+.header-nav {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  background-color: #00111d00;
+}
+
+.header-nav ul {
+  display: flex;
+  margin: 0;
+}
+.header-nav li {
+  list-style: none;
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.header-nav li:hover {
+  color: #bddb6b;
+}
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.header-nav a:hover {
+  color: #bddb6b;
+}
+/* Estilos para el logo */
+.navbar-brand img {
+  height: 40px; /* Ajusta el tamaño según sea necesario */
+  padding: 0;
+}
+.container-fluid {
+  padding-left: 0;
+}
+.navbar {
+  padding-left: 10%;
+  background-color: #062735;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  background-color: #062735;
+  display: none;
+}
+/* Espacio para compensar la barra de navegación fija */
+.content-spacing {
+  padding-top: 70px; /* Ajusta este valor según la altura de la barra de navegación */
+}
+.collapse {
+  background-color: #062735;
+}
+.navbar-nav {
+  background-color: #062735;
+}
+.text-body-emphasis {
+  background-color: #062735;
+}
+.nav-menu {
+  padding-top: 80px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  background-color: #062735;
+}
+.collapse {
+  position: fixed; /* Cambia el menú a una posición fija */
+  top: 0; /* Ajusta la posición para que esté en la parte superior */
+  width: 100%; /* Se asegura de que el menú colapse se extienda por todo el ancho */
+  z-index: 1050; /* Asegura que el menú esté por encima de otros elementos */
+}
+.principal {
+  width: 100%;
+  height: 900px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: linear-gradient(45deg, #4bc9ff 10%, #bddb6b 90%);
+  background-size: 300% 300%; /* Aumenta el tamaño para dar espacio al movimiento */
+  animation: gradientLoop 6s infinite; /* Define la animación */
+}
+@keyframes gradientLoop {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.principal-title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.principal-title h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+}
+.principal-title p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+.secondary {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(45deg,#062735b0 10%, #4bc9ff70 90%), url(/pages/assets/images/proyectos/pexels-fauxels-3184292.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.secondary-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  gap: 40px;
+}
+.secondary-content p {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+}
+.secondary-content span {
+  font-size: 1.5rem;
+  color: white;
+}
+.skew-container{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.terciary{
+    width: 100%;
+    height: 900px;
+}
+.terciary-frame{
+    width: 100%;
+    height: 100%;
+}
+.terciary-frame iframe{
+    width: 100%;
+    height: 100%;
+}
+footer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #062735;
+}
+.footer-container {
+  width: 100%;
+  height: 80%;
+  margin: 20px;
+  background-color: #00aebe00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.social {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 120px;
+  right: 40px;
+  display: none;
+  background-color: #062735;
+  border-color: #062735;
+  border-radius: 50%;
+}
