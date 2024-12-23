@@ -1,0 +1,664 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 90px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 4px #2e2e2e6c;
+  position: relative;
+  z-index: 333;
+  background-color: #062735;
+}
+.header-logo {
+  width: 300px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.header-logo a {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.header-logo img {
+  height: 60%;
+}
+.header-nav {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  background-color: #00111d00;
+}
+
+.header-nav ul {
+  display: flex;
+  margin: 0;
+}
+.header-nav li {
+  list-style: none;
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+.header-nav li:hover {
+  color: #bddb6b;
+}
+.header-nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.header-nav a:hover {
+  color: #bddb6b;
+}
+/* Estilos para el logo */
+.navbar-brand img {
+  height: 40px; /* Ajusta el tamaño según sea necesario */
+  padding: 0;
+}
+.container-fluid {
+  padding-left: 0;
+}
+.navbar {
+  padding-left: 10%;
+  background-color: #062735;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  background-color: #062735;
+  display: none;
+}
+/* Espacio para compensar la barra de navegación fija */
+
+.principal {
+  width: 100%;
+  height: 800px;
+  background: rgb(16, 184, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(16, 184, 255, 1) 4%,
+    rgba(88, 143, 0, 0.301) 48%,
+    rgba(189, 219, 107, 0.26) 100%
+  ), url(../images/DJI_0801.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.principal-title {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.principal-title h1 {
+  font-size: 4rem;
+  color: white;
+}
+.principal-title span {
+  font-size: 1.5rem;
+  color: white;
+}
+.principal-buttons {
+  width: 100%;
+  padding-top: 5%;
+}
+.principal-buttons button {
+  width: 200px;
+  height: 60px;
+  font-weight: 600;
+  border-style: none;
+  border-radius: 20px;
+  background-color: #062735;
+  color: white;
+}
+.principal-buttons a {
+  text-decoration: none;
+}
+.principal-img {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.principal-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  z-index: 2;
+}
+.principal-square {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  border-radius: 60px;
+  transform: rotate(45deg);
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 2px 2px 2px rgba(61, 61, 61, 0.568);
+}
+.separador {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.secondary {
+  width: 100%;
+  height: 750px;
+}
+
+.secondary-content-1 {
+  width: 100%;
+  height: 500px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+}
+.secondary-content-1 strong {
+  color: #10b8ff;
+}
+.secondary-img {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.secondary-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.secondary-info {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.secondary-info p {
+  font-size: 2rem;
+  color: #062735;
+}
+
+.terciary {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(0deg, #0627358c 90%, #06273500 10%),
+    url(../images/secondary-img.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.terciary-content {
+  width: 100%;
+  height: 200px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.terciary-title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.terciary-title h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+}
+.fourth {
+  width: 100%;
+  height: 750px;
+}
+.fourth-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.req {
+  width: 100%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 250px;
+  grid-template-areas: "icon info";
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.icon {
+  grid-area: icon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon i {
+  color: #062735;
+  font-size: 8rem;
+}
+.info {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 20px;
+}
+.info h3 {
+  color: #062735;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.info p {
+  font-size: 1.8rem;
+}
+.requisito-1 {
+  background-color: #eaffb167;
+}
+.requisito-2 {
+  background-color: #eaffb1be;
+}
+.requisito-3 {
+  background-color: #eaffb1;
+}
+.fifth {
+  width: 100%;
+  height: 1000px;
+  background: linear-gradient(0deg, #0627358c 100%, #06273500 10%),
+    url(../images/terciary-img.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fifth-title {
+  width: 100%;
+  height: 300px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fifth-title h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+.fifth-title p {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+.sixth {
+  width: 100%;
+  height: 1300px;
+  background-color: #062735;
+  display: flex;
+}
+.postular {
+  width: 50%;
+  height: 100%;
+  background: #062735;
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 800px 200px;
+  grid-template-areas:
+    "post-title"
+    "post-info"
+    "post-btn";
+}
+.post-title {
+  width: 100%;
+  grid-area: post-title;
+}
+.post-title h3 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.post-info {
+  width: 100%;
+  grid-area: post-info;
+}
+.post-info p {
+  font-size: 1.7rem;
+}
+.post-info span {
+  font-size: 1.7rem;
+}
+.post-info li {
+  font-size: 1.5rem;
+}
+.post-btn {
+  width: 100%;
+  grid-area: post-btn;
+}
+.post-btn button {
+  width: 100%;
+  height: 100px;
+  border-radius: 50px;
+  border-style: none;
+  color: #062735;
+}
+.post-btn a {
+  font-size: 2rem;
+}
+.votar {
+  width: 50%;
+  height: 100%;
+  background: #bddb6b;
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #062735;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 800px 200px;
+  grid-template-areas:
+    "vote-title"
+    "vote-info"
+    "vote-btn";
+}
+.vote-title {
+  width: 100%;
+  grid-area: vote-title;
+}
+.vote-title h3 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.vote-info {
+  width: 100%;
+  grid-area: vote-info;
+}
+.vote-info p {
+  font-size: 1.8rem;
+}
+.vote-info span {
+  font-size: 1.7rem;
+}
+.vote-info li {
+  font-size: 1.5rem;
+}
+.vote-btn {
+  width: 100%;
+  grid-area: vote-btn;
+}
+.vote-btn button {
+  width: 100%;
+  height: 100px;
+  border-radius: 50px;
+  border-style: none;
+  background-color: #062735;
+  color: white;
+}
+.vote-btn a {
+  font-size: 2rem;
+}
+
+.seventh {
+  width: 100%;
+  height: auto;
+  background-image: radial-gradient(#10b8ff 1px, transparent 1px);
+  background-size: 100px 100px;
+  background-color: rgba(188, 131, 199, 0);
+  background-color: #1a2e36;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+.seventh-title {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.seventh-title h2 {
+  color: white;
+  font-size: 3rem;
+}
+.seventh-faqs{
+  width: 100%;
+  height:auto;
+  background-color: #06273500;
+}
+
+
+/* Estilo general para el acordeón */
+.accordion {
+  border-color: #10b8ff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Estilo para cada ítem del acordeón */
+.accordion-item {
+  border-radius: 50px;
+  border-bottom: none !important; /* Elimina el borde inferior */
+}
+
+.accordion-item:last-child {
+  border-bottom: none; /* Quitar el borde del último ítem */
+}
+
+/* Estilo para los encabezados */
+.accordion-header {
+  background-color: #062735; /* Fondo claro */
+  padding: 10px 15px; /* Espaciado */
+  font-size: 1.1rem; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+}
+
+/* Estilo para los botones del acordeón */
+.accordion-button {
+  background-color: #06273500; /* Fondo azul */
+  color: #ffffff; /* Texto blanco */
+  font-size: 1.3rem; /* Tamaño del texto */
+  padding: 20px; /* Espaciado interno */
+  border: none; /* Sin bordes */
+  border-radius: 0; /* Quitar esquinas redondeadas */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+.accordion-button:hover {
+  background-color: #ffffff00; /* Color más oscuro al pasar el ratón */
+  color: white;
+}
+
+
+/* Mantener el mismo color cuando el ítem está activo */
+.accordion-button:focus {
+  box-shadow: none !important; /* Eliminar el borde o sombra azul del foco */
+  background-color: #0057b300 !important; /* Mantener el color activo */
+  color: white !important; /* Asegurar que el texto sea visible */
+  border-bottom: none !important; /* Elimina el borde inferior */
+}
+
+.accordion-button:not(.collapsed):focus {
+  background-color: #0057b300 !important; /* Fondo del ítem activo */
+  color: white !important;
+  border-bottom: none !important; /* Elimina el borde inferior */
+}
+
+/* Prevenir cambios de color al hacer clic fuera */
+.accordion-button:not(.collapsed) {
+  background-color: #0057b300 !important; /* Fondo activo */
+  color: white !important; /* Color del texto */
+  border-bottom: none !important; /* Elimina el borde inferior */
+}
+
+/* Opcional: Si quieres un estilo diferente para el foco */
+.accordion-button:focus-visible {
+  outline: none; /* Eliminar el contorno por defecto */
+  box-shadow: none !important; /* Sin sombra */
+  border-bottom: none !important; /* Elimina el borde inferior */
+}
+
+
+/* Contenido del acordeón */
+.accordion-body {
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 15px; /* Espaciado interno */
+  font-size: 1.2rem; /* Tamaño de fuente */
+  line-height: 1.5; /* Altura de línea */
+  color: #333; /* Color del texto */
+}
+
+/* Ajustes opcionales para dispositivos móviles */
+@media (max-width: 768px) {
+  .accordion {
+    margin: 10px; /* Añadir margen alrededor del acordeón */
+  }
+
+  .accordion-header {
+    font-size: 1rem; /* Reducir tamaño de fuente */
+  }
+
+  .accordion-button {
+    font-size: 0.9rem; /* Ajustar tamaño del texto */
+    padding: 8px; /* Reducir espaciado */
+  }
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #062735;
+}
+.footer-container {
+  width: 100%;
+  height: 80%;
+  margin: 20px;
+  background-color: #00aebe00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.social {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+/* Estilo para el modal */
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenido del modal */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 800px;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content img{
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+/* Botón de cerrar */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+}
+
+
+.postularBtn{
+  width: 200px;
+  height: 60px;
+  font-weight: 600;
+  border-style: none;
+  border-radius: 20px;
+  background-color: #062735;
+  color: white;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 120px;
+  right: 40px;
+  display: none;
+  background-color: #062735;
+  border-color: #062735;
+  border-radius: 50%;
+}
