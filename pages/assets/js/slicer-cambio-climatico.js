@@ -9,8 +9,16 @@ let currentIndex = 0;
 // Datos de título y descripción para cada video
 const videoData = [
     {
-        title: "Intervención Avenida Mitre",
-        description: "El proyecto buscó transformar la Av. Mitre de la Ciudad de Mendoza en un centro urbano sostenible mediante la promoción de la movilidad peatonal, la reducción de la velocidad vehicular y el embellecimiento del área con actividades innovadoras y diseños creativos."
+        title: "Valorización de las principales plazas de la ciudad de Mendoza",
+        description: `
+            <p>El objetivo del proyecto fue poner en valor la diversidad y función de las principales plazas de la Ciudad de Mendoza (Plaza Independencia, Plaza Chile, Plaza Italia, Plaza San Martín y Plaza España), como modelos de mejoramiento ambiental frente a los procesos de cambio climático.</p>
+            <p>Las actividades ejecutadas incluyeron:</p>
+            <ul>
+                <li>Identificación de especies, determinación de su estado sanitario y cobertura.</li>
+                <li>Encuestas de percepción ciudadana sobre las principales plazas de la Ciudad.</li>
+                <li>Obtención de datos de temperatura y humedad en espacios verdes y pavimentados, para comparar dichos valores.</li>
+            </ul>
+        `
     },
     {
         title: "EN BUSCA DE LA CIUDAD DE 15 MINUTOS",
@@ -33,7 +41,7 @@ const videoData = [
         description: "El proyecto se enfocó en evaluar la huella de carbono de la Legislatura de Mendoza, con el fin de identificar fuentes de emisiones de gases de efecto invernadero (GEI) y diseñar estrategias efectivas para mitigar su impacto ambiental."
     },
     {
-        title: "Huerta Agroecológica como ",
+        title: "Huerta agroecológica",
         description: "El proyecto buscó restaurar el suelo y promover prácticas agroecológicas en la Huerta del Liceo Agrícola y Enológico, ubicada en el Ambiente Natural Pedemonte de la Ciudad de  Mendoza. Se implementó un sistema de compostaje usando residuos orgánicos de la escuela y guano caprino del Puesto Leiva, mejorando la calidad del suelo y fomentando la biodiversidad local. A través de actividades educativas y la participación comunitaria, se buscó  sensibilizar sobre sostenibilidad y economía circular. Como resultado aumentó la conciencia ambiental y el compromiso en prácticas sostenibles por parte de estudiantes y la comunidad."
     },
     {
@@ -61,17 +69,9 @@ const videoData = [
         description: "El proyecto Alquimia Urbana: De Residuos a Recursos utilizó el arte urbano para concientizar sobre la importancia de gestionar, separar y reciclar los residuos. Los murales en espacios públicos captan la atención, educan y motivan a la comunidad a adoptar prácticas sostenibles. Inspirado en la alquimia, el proyecto muestra cómo los desechos pueden transformarse en recursos valiosos. El arte urbano rompe barreras de comunicación y llega a todas las personas, fomentando una cultura de reciclaje y sostenibilidad. Así, se promueve una ciudad más limpia y comprometida con el medio ambiente, demostrando que el arte puede transformar la realidad."
     },
     {
-        title: "Valorización de las principales plazas de la ciudad de Mendoza",
-        description: `
-            <p>El objetivo del proyecto fue poner en valor la diversidad y función de las principales plazas de la Ciudad de Mendoza (Plaza Independencia, Plaza Chile, Plaza Italia, Plaza San Martín y Plaza España), como modelos de mejoramiento ambiental frente a los procesos de cambio climático.</p>
-            <p>Las actividades ejecutadas incluyeron:</p>
-            <ul>
-                <li>Identificación de especies, determinación de su estado sanitario y cobertura.</li>
-                <li>Encuestas de percepción ciudadana sobre las principales plazas de la Ciudad.</li>
-                <li>Obtención de datos de temperatura y humedad en espacios verdes y pavimentados, para comparar dichos valores.</li>
-            </ul>
-        `
-    },
+  title: "Intervención Avenida Mitre",
+        description: "El proyecto buscó transformar la Av. Mitre de la Ciudad de Mendoza en un centro urbano sostenible mediante la promoción de la movilidad peatonal, la reducción de la velocidad vehicular y el embellecimiento del área con actividades innovadoras y diseños creativos."
+    },      
     // Agrega más títulos y descripciones según los videos
 ];
 
